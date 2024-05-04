@@ -37,6 +37,7 @@ useEffect(()=>{
         setToPage(10);
     }
     handleSearch();
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[query]);
 
 const handleSearch = () => {

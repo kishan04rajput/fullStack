@@ -8,6 +8,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [mergedData, setMergedData] = useState([]);
   const [totalData, setTotalData] = useState(0);
+  // eslint-disable-next-line no-unused-vars
   const [totalPages, setTotalPages] = useState(0);
 
   const [pageNumber, setPageNumber] = useState(1);
@@ -72,6 +73,7 @@ function App() {
   useEffect(()=>{
     setPageData(searchData.slice(fromPage, toPage));
     // console.log(pageNumber +" "+ fromPage +" "+ toPage);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[searchData]);
 
   useEffect(() => {
@@ -81,6 +83,7 @@ function App() {
   useEffect(()=>{
     setPageData(searchData.slice(fromPage, toPage));
     // console.log(pageNumber +" "+ fromPage +" "+ toPage);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[fromPage, toPage]);
 
   function nextPage() {
