@@ -150,7 +150,7 @@ function App() {
                 <img src={url} alt={asset_id}  />
               </td>
               <td style={{textAlign:"left"}}>{asset_id}</td>
-              <td>{"Rs." +" "+ Math.floor(1 / rate)}</td>
+              <td>{"Rs. "+ Math.floor(1 / rate)}</td>
             </tr>
           ))}
         </tbody>
