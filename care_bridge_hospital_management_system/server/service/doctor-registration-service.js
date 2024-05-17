@@ -10,6 +10,7 @@ async function createDoctor(userName, password) {
   const user = new DoctorProfile({
     userName: userName,
     hashedPassword: password,
+    appointmentDates: [1,2,3]
   });
   user.save();
 }
