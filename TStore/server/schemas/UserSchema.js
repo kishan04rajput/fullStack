@@ -14,6 +14,10 @@ const userProfileSchema = new mongoose.Schema({
   //   type: Array,
   //   default: [],
   // },
+  // order: {
+  //   type: Array,
+  //   default: [],
+  // },
   role: {
     type: String,
     default: "visitor",
