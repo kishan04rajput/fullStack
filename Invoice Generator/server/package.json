@@ -1,0 +1,29 @@
+{
+    "name": "invoice-generator-node",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kishan04rajput/invoice-generator-node.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kishan04rajput/invoice-generator-node/issues"
+    },
+    "homepage": "https://github.com/kishan04rajput/invoice-generator-node#readme",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "express-validator": "^7.1.0",
+        "nodemon": "^3.1.3",
+        "puppeteer": "^22.10.0"
+    }
+}
