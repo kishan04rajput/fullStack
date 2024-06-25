@@ -15,8 +15,8 @@ export const Home = () => {
             Hello, I am <br />
             <span className="text-teal-500 inline-block min-w-[150px]">
               {text}
+              <Cursor />
             </span>
-            <Cursor />
           </h1>
         </div>
         <div className="relative w-64 h-64 md:w-96 md:h-96 mt-8 md:mt-0 flex-shrink-0">
