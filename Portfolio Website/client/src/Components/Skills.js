@@ -37,7 +37,10 @@ export const Skills = () => {
 
 const SkillItem = ({ name, logo }) => {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">
+    <div
+      className="flex flex-col items-center justify-center bg-gray-900 p-4 rounded-lg shadow-lg
+    hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105"
+    >
       <img
         src={logo}
         alt={name}

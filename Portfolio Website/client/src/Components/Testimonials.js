@@ -26,7 +26,7 @@ export const Testimonials = () => {
           {testimonials.map((testimoni) => (
             <div
               key={testimoni.id}
-              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-full sm:w-2/3 md:w-1/2 lg:w-1/3 mx-4 p-4"
+              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-full sm:w-2/3 md:w-1/2 lg:w-1/3 mx-4 p-4 hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105"
             >
               <div className="p-6 flex items-center gap-4">
                 <a
@@ -66,5 +66,3 @@ export const Testimonials = () => {
     </div>
   );
 };
-
-export default Testimonials;

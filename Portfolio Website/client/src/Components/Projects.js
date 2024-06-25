@@ -1,5 +1,4 @@
 import React from "react";
-
 import portfolioImage from "../images/portfolioWebsite.png";
 
 export const Projects = () => {
@@ -82,18 +81,6 @@ export const Projects = () => {
       githubUrl:
         "https://github.com/kishan04rajput/fullStack/tree/main/demoStartupWebsite",
     },
-    // {
-    //   title: "",
-    //   description:
-    //     "",
-    //   tags: ["Javascript", "CSS"],
-    //   imageUrl:
-    //     "",
-    //   demoUrl: "",
-    //   githubUrl:
-    //     "",
-    // },
-    // Add more projects as needed
   ];
 
   return (
@@ -119,13 +106,8 @@ export const Projects = () => {
           border: 3px solid #2d3748;
         }
 
-        .project-card {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .project-card:hover {
-          transform: translateY(-10px);
-          box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+        .card-hover-shadow:hover {
+          box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
         }
         `}
       </style>
@@ -137,7 +119,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-72 flex-shrink-0 project-card"
+              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-72 flex-shrink-0 hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105 card-hover-shadow"
             >
               <img
                 src={project.imageUrl}
