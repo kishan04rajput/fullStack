@@ -1,12 +1,14 @@
 import React from "react";
 
+import portfolioImage from "../images/portfolioWebsite.png";
+
 export const Projects = () => {
   const projects = [
     {
       title: "Crypto Web App",
       description:
-        "I developed a web project utilizing HTML, CSS, JavaScript, and React to fetch cryptocurrency data with pagination and a search bar feature.",
-      tags: ["React", "Javascript", "Html", "CSS", "Api integration"],
+        "Developed a comprehensive web application utilizing HTML, CSS, JavaScript, and React. This project features real-time cryptocurrency data fetching, pagination, and a search bar for enhanced user interaction.",
+      tags: ["React", "Javascript", "Html", "CSS", "API Integration"],
       imageUrl:
         "https://cdn.dorik.com/66312161090689001101572a/images/cryptoApp-OfXX4.png",
       demoUrl: "https://block-chain-quantifier.netlify.app/",
@@ -14,9 +16,19 @@ export const Projects = () => {
         "https://github.com/kishan04rajput/fullStack/tree/main/cryptoWebApp",
     },
     {
+      title: "Portfolio Website",
+      description:
+        "Created a professional portfolio website using React, with seamless auto-deployment on Netlify. This site showcases my projects and skills with a modern and responsive design.",
+      tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
+      imageUrl: portfolioImage,
+      demoUrl: "https://main--mern-stack-developer-kishan-rajput.netlify.app/",
+      githubUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/Portfolio%20Website/client",
+    },
+    {
       title: "Linkedingage",
       description:
-        "I've crafted an extensive project comprising 11 webpages, each showcasing my adeptness in HTML, CSS, and JavaScript. The webpages are meticulously designed to be responsive, highlighting my proficiency in creating dynamic and adaptable user interfaces across various devices.",
+        "Crafted an extensive project with 11 web pages, demonstrating expertise in HTML, CSS, and JavaScript. The design is responsive, showcasing dynamic and adaptable user interfaces across various devices.",
       tags: ["Javascript", "Html", "CSS"],
       imageUrl:
         "https://cdn.dorik.com/66312161090689001101572a/images/photo-1563986768494-4dee2763ff3f-x4DVS.jpeg",
@@ -28,7 +40,7 @@ export const Projects = () => {
     {
       title: "Todo List",
       description:
-        "I created a Todo List project showcasing my skills in HTML, CSS, Bootstrap, and JavaScript, offering an efficient task management solution with a user-friendly interface.",
+        "Developed a Todo List application highlighting skills in HTML, CSS, Bootstrap, and JavaScript. This project provides an efficient task management solution with a user-friendly interface.",
       tags: ["Javascript", "Html", "Bootstrap", "CSS"],
       imageUrl:
         "https://cdn.dorik.com/66312161090689001101572a/images/toDoList-wdaTW.png",
@@ -39,7 +51,7 @@ export const Projects = () => {
     {
       title: "Tic Tac Toe",
       description:
-        "I've developed a Tic Tac Toe project demonstrating my proficiency in HTML, CSS, Bootstrap, and JavaScript, offering an engaging gaming experience.",
+        "Developed a Tic Tac Toe game using HTML, CSS, Bootstrap, and JavaScript. This project showcases my ability to create engaging and interactive gaming experiences.",
       tags: ["Javascript", "Html", "Bootstrap", "CSS"],
       imageUrl:
         "https://cdn.dorik.com/66312161090689001101572a/images/ticTacToe-2hfLO.png",
@@ -50,7 +62,7 @@ export const Projects = () => {
     {
       title: "Spotify Clone",
       description:
-        "I've created a Spotify clone using HTML, CSS, and JavaScript, enabling audio playback functionality for an immersive experience.",
+        "Developed a Spotify clone using HTML, CSS, and JavaScript, featuring audio playback functionality. This project replicates the core features of Spotify for an immersive user experience.",
       tags: ["Javascript", "Html", "CSS"],
       imageUrl:
         "https://cdn.dorik.com/66312161090689001101572a/images/spotifyClone-7ti77.png",
@@ -60,9 +72,9 @@ export const Projects = () => {
         "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
     },
     {
-      title: "demoStartWebsite",
+      title: "Demo Startup Website",
       description:
-        "I've created a demo startup landing page using HTML and CSS, showcasing my proficiency in front-end development.",
+        "Created a demo startup landing page using HTML and CSS. This project demonstrates proficiency in front-end development with a focus on clean and modern design.",
       tags: ["Html", "CSS"],
       imageUrl:
         "https://cdn.dorik.com/66312161090689001101572a/images/1-1XZbJ.png",
@@ -141,22 +153,26 @@ export const Projects = () => {
                   ))}
                 </div>
                 <div className="flex justify-center">
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mr-2"
-                  >
-                    Demo
-                  </a>
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
-                  >
-                    GitHub
-                  </a>
+                  {project.demoUrl && (
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded mr-2"
+                    >
+                      Demo
+                    </a>
+                  )}
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
