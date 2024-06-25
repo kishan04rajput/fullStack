@@ -118,6 +118,15 @@ export const Projects = () => {
           border-radius: 10px;
           border: 3px solid #2d3748;
         }
+
+        .project-card {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+        }
         `}
       </style>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -128,7 +137,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-72 flex-shrink-0"
+              className="bg-gray-800 rounded-lg shadow-lg overflow-hidden w-72 flex-shrink-0 project-card"
             >
               <img
                 src={project.imageUrl}
