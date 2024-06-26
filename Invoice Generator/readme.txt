@@ -1,0 +1,5 @@
+- This application requires both the backend and frontend to be running concurrently to enable invoice printing.
+- To run client go to client folder and run "npm start".
+- To run server go to server folder and run "nodemon server.js"
+- Pre-filled demo data is available in the input fields for company and user details.
+- A demo product is also available.
