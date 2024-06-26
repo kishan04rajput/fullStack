@@ -1,8 +1,28 @@
 import React from "react";
 import portfolioImage from "../images/portfolioWebsite.png";
+import invoiceImage from "../images/invoice.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Invoice Generator",
+      description:
+        "I developed a full-stack Invoice Generator App using Node.js, Express, and React. The app provides a robust backend for server-side operations and a dynamic frontend for seamless invoice management.",
+      tags: [
+        "Nodejs",
+        "express",
+        "React",
+        "Html",
+        "Tailwind",
+        "CSS",
+        "API Integration",
+      ],
+      imageUrl: invoiceImage,
+      demoUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/Invoice%20Generator",
+      githubUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/Invoice%20Generator",
+    },
     {
       title: "Crypto Web App",
       description:
