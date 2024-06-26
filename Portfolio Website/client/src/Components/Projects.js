@@ -8,7 +8,7 @@ export const Projects = () => {
     {
       title: "Polling System",
       description:
-        "A comprehensive web application enabling user management and dynamic polling within educational institutes. Built with MySQL, Express, React, and Node.js, administrators can manage roles (Teacher, Student, Institute) through robust CRUD operations, facilitating tailored user interactions and efficient data management.",
+        "A web app for educational institutes, managing user roles (Teacher, Student, Institute) via MySQL, Express, React, and Node.js. Enables dynamic polling and robust CRUD operations for efficient data management.",
       tags: [
         "Nodejs",
         "Express",
