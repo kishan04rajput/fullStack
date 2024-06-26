@@ -1,9 +1,30 @@
 import React from "react";
 import portfolioImage from "../images/portfolioWebsite.png";
 import invoiceImage from "../images/invoice.png";
+import pollingSystemImage from "../images/pollingSystem.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Polling System",
+      description:
+        "A comprehensive web application enabling user management and dynamic polling within educational institutes. Built with MySQL, Express, React, and Node.js, administrators can manage roles (Teacher, Student, Institute) through robust CRUD operations, facilitating tailored user interactions and efficient data management.",
+      tags: [
+        "Nodejs",
+        "Express",
+        "MySQL",
+        "React",
+        "HTML",
+        "Tailwind",
+        "CSS",
+        "API Integration",
+      ],
+      imageUrl: pollingSystemImage,
+      demoUrl:
+        "https://drive.google.com/file/d/1P6FB3sT_JRzvHJohxyM6S3Zl2QJcTEKw/view",
+      githubUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/BasicPollingSystem",
+    },
     {
       title: "Invoice Generator",
       description:
