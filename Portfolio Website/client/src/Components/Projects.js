@@ -78,6 +78,18 @@ export const Projects = () => {
         "https://github.com/kishan04rajput/fullStack/tree/main/linkedengage",
     },
     {
+      title: "Spotify Clone",
+      description:
+        "Developed a Spotify clone using HTML, CSS, and JavaScript, featuring audio playback functionality. This project replicates the core features of Spotify for an immersive user experience.",
+      tags: ["Javascript", "Html", "CSS"],
+      imageUrl:
+        "https://cdn.dorik.com/66312161090689001101572a/images/spotifyClone-7ti77.png",
+      demoUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
+      githubUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
+    },
+    {
       title: "Todo List",
       description:
         "Developed a Todo List application highlighting skills in HTML, CSS, Bootstrap, and JavaScript. This project provides an efficient task management solution with a user-friendly interface.",
@@ -98,18 +110,6 @@ export const Projects = () => {
       demoUrl: "https://live-tic-tac-toe.netlify.app/",
       githubUrl:
         "https://github.com/kishan04rajput/fullStack/tree/main/Tic%20Tac%20Toe",
-    },
-    {
-      title: "Spotify Clone",
-      description:
-        "Developed a Spotify clone using HTML, CSS, and JavaScript, featuring audio playback functionality. This project replicates the core features of Spotify for an immersive user experience.",
-      tags: ["Javascript", "Html", "CSS"],
-      imageUrl:
-        "https://cdn.dorik.com/66312161090689001101572a/images/spotifyClone-7ti77.png",
-      demoUrl:
-        "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
-      githubUrl:
-        "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
     },
     {
       title: "Demo Startup Website",
