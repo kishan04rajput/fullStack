@@ -1,4 +1,5 @@
 import React from "react";
+import contactUsImage from "../images/contactUs.png";
 
 export const ContactMe = () => {
   return (
@@ -67,7 +68,7 @@ export const ContactMe = () => {
         {/* Right Part */}
         <div className="md:w-1/2">
           <img
-            src="https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/contact.jpeg"
+            src={contactUsImage}
             alt="Your"
             className="w-full h-full object-cover md:rounded-r-lg"
           />
