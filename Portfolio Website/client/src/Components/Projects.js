@@ -2,6 +2,7 @@ import React from "react";
 import portfolioImage from "../images/portfolioWebsite.png";
 import invoiceImage from "../images/invoice.png";
 import pollingSystemImage from "../images/pollingSystem.png";
+import resumeImage from "../images/resumeImage.png";
 
 export const Projects = () => {
   const projects = [
@@ -64,6 +65,16 @@ export const Projects = () => {
       demoUrl: "https://main--mern-stack-developer-kishan-rajput.netlify.app/",
       githubUrl:
         "https://github.com/kishan04rajput/fullStack/tree/main/Portfolio%20Website/client",
+    },
+    {
+      title: "Resume",
+      description:
+        "Created a professional live resume website using React, with seamless auto-deployment on Netlify. This site showcases my live resume with a modern and responsive design.",
+      tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
+      imageUrl: resumeImage,
+      demoUrl: "https://kishan-rajput-resume.netlify.app/",
+      githubUrl:
+        "https://github.com/kishan04rajput/fullStack/tree/main/my-resume",
     },
     {
       title: "Linkedingage",
