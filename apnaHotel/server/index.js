@@ -5,6 +5,9 @@ import authRoutes from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import hotelsRoute from "./routes/hotels.js";
 import roomsRoute from "./routes/rooms.js";
+import morgan from "morgan";
+// import logtimestamp from "lolog-timestamp";
+// require("log-timestamp");
 
 const PORT = process.env.PORT || 4000;
 const MONGO_URI = process.env.MONGO_URI;
@@ -23,6 +26,8 @@ const connect = async () => {
 };
 
 //middlewares
+// app.use(logtimestamp);
+app.use(morgan("dev"));
 app.use(CookieParser());
 app.use(express.json());
 app.use("/api/auth", authRoutes);

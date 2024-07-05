@@ -1,5 +1,6 @@
 import express from "express";
 import {
+  bookHotel,
   countByCity,
   countByType,
   createHotel,
@@ -8,11 +9,11 @@ import {
   getHotel,
   updateHotel,
 } from "../controllers/hotel.js";
-import { verifyAdmin } from "../utils/verifyToken.js";
+import { verifyAdmin, verifyToken, verifyUser } from "../utils/verifyToken.js";
 
 const router = express.Router();
 
-//create
+//create`
 router.post("/", verifyAdmin, createHotel);
 
 //update
@@ -29,5 +30,7 @@ router.get("/", getAllHotel);
 
 router.get("/countByCity", countByCity);
 router.get("/countByType", countByType);
+
+router.post("/book/:hotelId", verifyToken, bookHotel);
 
 export default router;

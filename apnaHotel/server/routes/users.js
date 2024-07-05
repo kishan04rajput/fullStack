@@ -31,7 +31,7 @@ router.put("/:id", verifyUser, updateUser);
 router.delete("/:id", verifyUser, deleteUser);
 
 //get
-router.get("/:id", verifyUser, getUser);
+router.get("/:email", verifyUser, getUser);
 
 //getAll
 router.get("/", verifyAdmin, getAllUser);

@@ -4,7 +4,7 @@ export const verifyToken = (req, res, next) => {
   const token = req.cookies.access_token;
   // console.log(req.cookies);
   if (!token) {
-    return res.send("No token is available!");
+    return res.status(404).send("Please Login!");
   }
   jwt.verify(
     req.cookies.access_token,
