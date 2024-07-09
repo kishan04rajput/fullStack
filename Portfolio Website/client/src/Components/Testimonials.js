@@ -1,4 +1,5 @@
 import React from "react";
+import KSImage from "../images/KS.png";
 
 export const Testimonials = () => {
   const testimonials = [
@@ -11,8 +12,7 @@ export const Testimonials = () => {
       ],
       company: "IIM–Nagpur Administration",
       linkedin: "https://www.linkedin.com/in/kuldeep-shukla-a07098b0/",
-      image:
-        "https://media.licdn.com/dms/image/D4D03AQEiwz8SXbgV2Q/profile-displayphoto-shrink_100_100/0/1687107794861?e=1720051200&v=beta&t=u_DkoS7si1xBCQ5WfTJdwIQYjaIfAoWIZg_dkJow5PI",
+      image: KSImage,
     },
   ];
 
