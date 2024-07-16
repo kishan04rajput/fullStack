@@ -109,3 +109,24 @@ export const bookHotel = async (req, res) => {
       .json({ message: "Booking failed. Please try again later." });
   }
 };
+
+export const searchHotel = async (req, res) => {
+  const { query } = req.query;
+  if (!query) {
+    return res.status(400).json({ error: "Query parameter is required" });
+  }
+
+  try {
+    const results = await Hotel.find({
+      $or: [
+        { name: { $regex: query, $options: "i" } },
+        { city: { $regex: query, $options: "i" } },
+        { address: { $regex: query, $options: "i" } },
+      ],
+    });
+    res.json(results);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+};

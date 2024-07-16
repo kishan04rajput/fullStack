@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import krimage from "../images/kr.png";
+import Scrollspy from "react-scrollspy";
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,50 +46,57 @@ export const NavBar = () => {
             menuOpen ? "block" : "hidden"
           } md:flex md:w-auto`}
         >
-          <ul className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 p-4 md:p-0">
-            <li>
-              <a
-                href="#Home"
-                className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-              >
+          <Scrollspy
+            items={["Home", "About", "Skills", "Projects", "ContactMe"]}
+            currentClassName="active"
+            className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 p-4 md:p-0"
+          >
+            <li className="nav-item">
+              <a href="#Home" className="nav-link">
                 Home
               </a>
             </li>
-            <li>
-              <a
-                href="#About"
-                className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-              >
+            <li className="nav-item">
+              <a href="#About" className="nav-link">
                 About
               </a>
             </li>
-            <li>
-              <a
-                href="#Skills"
-                className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-              >
+            <li className="nav-item">
+              <a href="#Skills" className="nav-link">
                 Skills
               </a>
             </li>
-            <li>
-              <a
-                href="#Projects"
-                className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-              >
+            <li className="nav-item">
+              <a href="#Projects" className="nav-link">
                 My Work
               </a>
             </li>
-            <li>
-              <a
-                href="#ContactMe"
-                className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-              >
+            <li className="nav-item">
+              <a href="#ContactMe" className="nav-link">
                 Contact
               </a>
             </li>
-          </ul>
+          </Scrollspy>
         </div>
       </div>
+      <style>{`
+        .active a {
+          color: #3b82f6 !important;
+          transition: color 0.4s;
+        }
+        .nav-link {
+          color: #ffffff;
+        }
+        .nav-link:hover {
+          color: #3b82f6;
+        }
+        .dark .nav-link {
+          color: #ffffff;
+        }
+        .dark .nav-link:hover {
+          color: #3b82f6;
+        }
+      `}</style>
     </nav>
   );
 };

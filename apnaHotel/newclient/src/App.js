@@ -7,6 +7,7 @@ import { Signup } from "./Pages/SignupPage";
 import { AdminDashboardPage } from "./Pages/AdminDashboardPage.js";
 import { Navbar } from "./Components/Navbar.js";
 import { BookingHistory } from "./Pages/BookingHistory.js";
+import SearchResults from "./Components/SearchResults.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/" element={<Navbar />}>
             <Route path="/" index element={<UserDashboardPage />} />
+            <Route path="/search" element={<SearchResults />} />
             <Route
               path="/bookingHistory/:userName"
               index
