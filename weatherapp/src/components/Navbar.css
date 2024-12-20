@@ -1,0 +1,13 @@
+nav {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    color: #b5c4cc;
+    padding: 3%;
+}
+.active {
+    color: white;
+    background-color: #656e86;
+}

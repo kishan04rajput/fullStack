@@ -1,0 +1,18 @@
+.MiniCard {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+#windspeed,
+#clouds,
+#humidity {
+    background-color: #65758d;
+    padding: 3%;
+    flex-grow: 1;
+}
+
+img {
+    width: 50%;
+}

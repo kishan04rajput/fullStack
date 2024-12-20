@@ -1,0 +1,7 @@
+form {
+    display: flex;
+    gap: 1vw;
+}
+input::placeholder {
+    color: rgb(170, 157, 157);
+}
