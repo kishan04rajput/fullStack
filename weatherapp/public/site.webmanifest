@@ -1,4 +1,5 @@
 {
     "name": "myweathersapps",
+    "short_name": "myweathersapps",
     "display": "standalone"
 }
