@@ -1,0 +1,12 @@
+{
+    "short_name": "myweathersapps",
+    "start_url": ".",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "wind.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}
