@@ -7,6 +7,7 @@ import myweathersapps from "../images/myweathersapps.png";
 import ecomzy from "../images/ecomzy.png";
 import blog from "../images/blogs.png";
 import randomGif from "../images/random-gif.png";
+import passwordGenerator from "../images/passwordGenerator.png";
 
 export const Projects = () => {
     const projects = [
@@ -121,6 +122,16 @@ export const Projects = () => {
             demoUrl: "https://blogs-contexts-sites.netlify.app/",
             githubUrl:
                 "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/blogs-context",
+        },
+        {
+            title: "Password Generator",
+            description:
+                "Creates random passwords which may include numbers, uppercase, lowercase, symbols. Made the website using HTML for structure, CSS for styling, and JavaScript for generating random passwords.",
+            tags: ["HTML", "CSS", "JavaScript", "Password Generator"],
+            imageUrl: passwordGenerator,
+            demoUrl: "https://password-generator-sites.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/63fd02e3a9c08b4ccf92b303af1c7ba869c5de03/passwordGenerator",
         },
         {
             title: "Portfolio Website",
