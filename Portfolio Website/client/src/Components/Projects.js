@@ -128,8 +128,7 @@ export const Projects = () => {
                 "Created a professional portfolio website using React, with seamless auto-deployment on Netlify. This site showcases my projects and skills with a modern and responsive design.",
             tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
             imageUrl: portfolioImage,
-            demoUrl:
-                "https://main--mern-stack-developer-kishan-rajput.netlify.app/",
+            demoUrl: "https://kishan-rajput.netlify.app/",
             githubUrl:
                 "https://github.com/kishan04rajput/fullStack/tree/main/Portfolio%20Website/client",
         },
