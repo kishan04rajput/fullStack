@@ -2,7 +2,7 @@ import React from "react";
 import portfolioImage from "../images/portfolioWebsite.png";
 import invoiceImage from "../images/invoice.png";
 import pollingSystemImage from "../images/pollingSystem.png";
-import resumeImage from "../images/resumeImage.png";
+// import resumeImage from "../images/resumeImage.png";
 import myweathersapps from "../images/myweathersapps.png";
 import ecomzy from "../images/ecomzy.png";
 import blog from "../images/blogs.png";
@@ -31,51 +31,6 @@ export const Projects = () => {
             githubUrl:
                 "https://github.com/kishan04rajput/fullStack/tree/main/BasicPollingSystem",
         },
-        {
-            title: "MyWeatherApps",
-            description:
-                "This is a website that shows current location weather and allows users to search the weather of any city. Built using React, OpenWeather API, JavaScript, HTML, and CSS.",
-            tags: [
-                "React",
-                "OpenWeather API",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "API Integration",
-            ],
-            imageUrl: myweathersapps,
-            demoUrl: "https://myweathersapps.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/weatherapp",
-        },
-        {
-            title: "RandomGIF",
-            description:
-                "Created a website that can show random GIFs as well as show GIFs based on input value. Made using React, JavaScript, HTML, Tailwind. GIFs are fetched from an API.",
-            tags: ["React", "JavaScript", "HTML", "Tailwind", "API Fetch"],
-            imageUrl: randomGif,
-            demoUrl: "https://random-gif-site.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/random-gif",
-        },
-        {
-            title: "Ecomzy",
-            description:
-                "Ecomzy is an online store built with React, JavaScript, HTML, CSS, Tailwind, and Redux Toolkit. It offers dynamic product listings, detailed product pages, and efficient cart management, ensuring a seamless shopping experience with a modern, responsive design.",
-            tags: [
-                "React",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Tailwind",
-                "Redux Toolkit",
-            ],
-            imageUrl: ecomzy,
-            demoUrl: "https://ecomzy-site.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/ECOMZY",
-        },
-
         {
             title: "Invoice Generator",
             description:
@@ -107,6 +62,82 @@ export const Projects = () => {
                 "https://github.com/kishan04rajput/fullStack/tree/main/cryptoWebApp",
         },
         {
+            title: "My Weather App",
+            description:
+                "This is a website that shows current location weather and allows users to search the weather of any city. Built using React, OpenWeather API, JavaScript, HTML, and CSS.",
+            tags: [
+                "React",
+                "OpenWeather API",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "API Integration",
+            ],
+            imageUrl: myweathersapps,
+            demoUrl: "https://myweathersapps.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/weatherapp",
+        },
+        {
+            title: "Password Generator",
+            description:
+                "Creates random passwords which may include numbers, uppercase, lowercase, symbols. Made the website using HTML for structure, CSS for styling, and JavaScript for generating random passwords.",
+            tags: ["HTML", "CSS", "JavaScript", "Password Generator"],
+            imageUrl: passwordGenerator,
+            demoUrl: "https://password-generator-sites.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/63fd02e3a9c08b4ccf92b303af1c7ba869c5de03/passwordGenerator",
+        },
+        {
+            title: "RandomGIF",
+            description:
+                "Created a website that can show random GIFs as well as show GIFs based on input value. Made using React, JavaScript, HTML, Tailwind. GIFs are fetched from an API.",
+            tags: ["React", "JavaScript", "HTML", "Tailwind", "API Fetch"],
+            imageUrl: randomGif,
+            demoUrl: "https://random-gif-site.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/random-gif",
+        },
+        {
+            title: "Tic Tac Toe",
+            description:
+                "Developed a Tic Tac Toe game using HTML, CSS, Bootstrap, and JavaScript. This project showcases my ability to create engaging and interactive gaming experiences.",
+            tags: ["Javascript", "Html", "Bootstrap", "CSS"],
+            imageUrl:
+                "https://cdn.dorik.com/66312161090689001101572a/images/ticTacToe-2hfLO.png",
+            demoUrl: "https://live-tic-tac-toe.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/main/Tic%20Tac%20Toe",
+        },
+        {
+            title: "Todo List",
+            description:
+                "Developed a Todo List application highlighting skills in HTML, CSS, Bootstrap, and JavaScript. This project provides an efficient task management solution with a user-friendly interface.",
+            tags: ["Javascript", "Html", "Bootstrap", "CSS"],
+            imageUrl:
+                "https://cdn.dorik.com/66312161090689001101572a/images/toDoList-wdaTW.png",
+            demoUrl: "https://live-todo-list.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/main/ToDoList",
+        },
+        {
+            title: "Ecomzy",
+            description:
+                "Ecomzy is an online store built with React, JavaScript, HTML, CSS, Tailwind, and Redux Toolkit. It offers dynamic product listings, detailed product pages, and efficient cart management, ensuring a seamless shopping experience with a modern, responsive design.",
+            tags: [
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Tailwind",
+                "Redux Toolkit",
+            ],
+            imageUrl: ecomzy,
+            demoUrl: "https://ecomzy-site.netlify.app/",
+            githubUrl:
+                "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/ECOMZY",
+        },
+        {
             title: "Blogs",
             description:
                 "Created a blog website that shows blogs through API fetch and is used through React, JavaScript, HTML, Tailwind, and Context API for global data management.",
@@ -124,16 +155,6 @@ export const Projects = () => {
                 "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/blogs-context",
         },
         {
-            title: "Password Generator",
-            description:
-                "Creates random passwords which may include numbers, uppercase, lowercase, symbols. Made the website using HTML for structure, CSS for styling, and JavaScript for generating random passwords.",
-            tags: ["HTML", "CSS", "JavaScript", "Password Generator"],
-            imageUrl: passwordGenerator,
-            demoUrl: "https://password-generator-sites.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/63fd02e3a9c08b4ccf92b303af1c7ba869c5de03/passwordGenerator",
-        },
-        {
             title: "Portfolio Website",
             description:
                 "Created a professional portfolio website using React, with seamless auto-deployment on Netlify. This site showcases my projects and skills with a modern and responsive design.",
@@ -143,16 +164,16 @@ export const Projects = () => {
             githubUrl:
                 "https://github.com/kishan04rajput/fullStack/tree/main/Portfolio%20Website/client",
         },
-        {
-            title: "Resume",
-            description:
-                "Created a professional live resume website using React, with seamless auto-deployment on Netlify. This site showcases my live resume with a modern and responsive design.",
-            tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
-            imageUrl: resumeImage,
-            demoUrl: "https://kishan-rajput-resume.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/my-resume",
-        },
+        // {
+        //     title: "Resume",
+        //     description:
+        //         "Created a professional live resume website using React, with seamless auto-deployment on Netlify. This site showcases my live resume with a modern and responsive design.",
+        //     tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
+        //     imageUrl: resumeImage,
+        //     demoUrl: "https://kishan-rajput-resume.netlify.app/",
+        //     githubUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/my-resume",
+        // },
         {
             title: "Linkedingage",
             description:
@@ -176,28 +197,6 @@ export const Projects = () => {
                 "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
             githubUrl:
                 "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
-        },
-        {
-            title: "Todo List",
-            description:
-                "Developed a Todo List application highlighting skills in HTML, CSS, Bootstrap, and JavaScript. This project provides an efficient task management solution with a user-friendly interface.",
-            tags: ["Javascript", "Html", "Bootstrap", "CSS"],
-            imageUrl:
-                "https://cdn.dorik.com/66312161090689001101572a/images/toDoList-wdaTW.png",
-            demoUrl: "https://live-todo-list.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/ToDoList",
-        },
-        {
-            title: "Tic Tac Toe",
-            description:
-                "Developed a Tic Tac Toe game using HTML, CSS, Bootstrap, and JavaScript. This project showcases my ability to create engaging and interactive gaming experiences.",
-            tags: ["Javascript", "Html", "Bootstrap", "CSS"],
-            imageUrl:
-                "https://cdn.dorik.com/66312161090689001101572a/images/ticTacToe-2hfLO.png",
-            demoUrl: "https://live-tic-tac-toe.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/Tic%20Tac%20Toe",
         },
         {
             title: "Demo Startup Website",
