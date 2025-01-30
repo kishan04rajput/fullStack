@@ -154,16 +154,16 @@ export const Projects = () => {
             githubUrl:
                 "https://github.com/kishan04rajput/fullStack/tree/14d53e9b7f0304737866ad7751a51cdba9a5ef3f/blogs-context",
         },
-        {
-            title: "Portfolio Website",
-            description:
-                "Created a professional portfolio website using React, with seamless auto-deployment on Netlify. This site showcases my projects and skills with a modern and responsive design.",
-            tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
-            imageUrl: portfolioImage,
-            demoUrl: "https://kishan-rajput.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/Portfolio%20Website/client",
-        },
+        // {
+        //     title: "Portfolio Website",
+        //     description:
+        //         "Created a professional portfolio website using React, with seamless auto-deployment on Netlify. This site showcases my projects and skills with a modern and responsive design.",
+        //     tags: ["Netlify", "React", "HTML", "Tailwind", "CSS"],
+        //     imageUrl: portfolioImage,
+        //     demoUrl: "https://kishan-rajput.netlify.app/",
+        //     githubUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/Portfolio%20Website/client",
+        // },
         // {
         //     title: "Resume",
         //     description:
@@ -174,41 +174,41 @@ export const Projects = () => {
         //     githubUrl:
         //         "https://github.com/kishan04rajput/fullStack/tree/main/my-resume",
         // },
-        {
-            title: "Linkedingage",
-            description:
-                "Crafted an extensive project with 11 web pages, demonstrating expertise in HTML, CSS, and JavaScript. The design is responsive, showcasing dynamic and adaptable user interfaces across various devices.",
-            tags: ["Javascript", "Html", "CSS"],
-            imageUrl:
-                "https://cdn.dorik.com/66312161090689001101572a/images/photo-1563986768494-4dee2763ff3f-x4DVS.jpeg",
-            demoUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/linkedengage",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/linkedengage",
-        },
-        {
-            title: "Spotify Clone",
-            description:
-                "Developed a Spotify clone using HTML, CSS, and JavaScript, featuring audio playback functionality. This project replicates the core features of Spotify for an immersive user experience.",
-            tags: ["Javascript", "Html", "CSS"],
-            imageUrl:
-                "https://cdn.dorik.com/66312161090689001101572a/images/spotifyClone-7ti77.png",
-            demoUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
-        },
-        {
-            title: "Demo Startup Website",
-            description:
-                "Created a demo startup landing page using HTML and CSS. This project demonstrates proficiency in front-end development with a focus on clean and modern design.",
-            tags: ["Html", "CSS"],
-            imageUrl:
-                "https://cdn.dorik.com/66312161090689001101572a/images/1-1XZbJ.png",
-            demoUrl: "https://live-startup-website.netlify.app/",
-            githubUrl:
-                "https://github.com/kishan04rajput/fullStack/tree/main/demoStartupWebsite",
-        },
+        // {
+        //     title: "Linkedingage",
+        //     description:
+        //         "Crafted an extensive project with 11 web pages, demonstrating expertise in HTML, CSS, and JavaScript. The design is responsive, showcasing dynamic and adaptable user interfaces across various devices.",
+        //     tags: ["Javascript", "Html", "CSS"],
+        //     imageUrl:
+        //         "https://cdn.dorik.com/66312161090689001101572a/images/photo-1563986768494-4dee2763ff3f-x4DVS.jpeg",
+        //     demoUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/linkedengage",
+        //     githubUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/linkedengage",
+        // },
+        // {
+        //     title: "Spotify Clone",
+        //     description:
+        //         "Developed a Spotify clone using HTML, CSS, and JavaScript, featuring audio playback functionality. This project replicates the core features of Spotify for an immersive user experience.",
+        //     tags: ["Javascript", "Html", "CSS"],
+        //     imageUrl:
+        //         "https://cdn.dorik.com/66312161090689001101572a/images/spotifyClone-7ti77.png",
+        //     demoUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
+        //     githubUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/SpotifyClone",
+        // },
+        // {
+        //     title: "Demo Startup Website",
+        //     description:
+        //         "Created a demo startup landing page using HTML and CSS. This project demonstrates proficiency in front-end development with a focus on clean and modern design.",
+        //     tags: ["Html", "CSS"],
+        //     imageUrl:
+        //         "https://cdn.dorik.com/66312161090689001101572a/images/1-1XZbJ.png",
+        //     demoUrl: "https://live-startup-website.netlify.app/",
+        //     githubUrl:
+        //         "https://github.com/kishan04rajput/fullStack/tree/main/demoStartupWebsite",
+        // },
     ];
 
     return (
