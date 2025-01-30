@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioImage from "../images/portfolioWebsite.png";
+// import portfolioImage from "../images/portfolioWebsite.png";
 import invoiceImage from "../images/invoice.png";
 import pollingSystemImage from "../images/pollingSystem.png";
 // import resumeImage from "../images/resumeImage.png";
