@@ -2,7 +2,7 @@ export const Skills = () => {
   const skillCategories = [
     {
       category: "Mobile & Frontend",
-      skills: ["React Native", "ReactJS", "NativeWind", "Tailwind"],
+      skills: ["React Native", "ReactJS", "NativeWind", "Tailwind", "App Store/Play Store Deployment"],
     },
     {
       category: "Backend & Databases",
