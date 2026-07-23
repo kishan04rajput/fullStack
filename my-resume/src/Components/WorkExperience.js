@@ -16,7 +16,7 @@ export const WorkExperience = () => {
           </div>
           <ul className="list-disc mt-2 text-justify">
             <li className="mb-0">
-              Independently architected and built Housie Hub from scratch—the core internal operations application across iOS and Android using React Native and Ruby on Rails, taking complete end-to-end ownership of full-stack development and system architecture.
+              Independently architected and built Housie Hub from scratch, the core internal operations application across iOS and Android using React Native and Ruby on Rails, taking complete end-to-end ownership of full-stack development and system architecture.
             </li>
             <li className="mb-0">
               Engineered vital operational workflows within Housie Hub, including real-time order processing, automated packer assignment, and rider management modules to streamline order fulfillment and boost overall business efficiency.
