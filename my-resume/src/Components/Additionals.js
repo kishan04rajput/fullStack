@@ -12,9 +12,6 @@ export const Additionals = () => {
         <div className="mt-4">
           <ul className="list-disc list-inside list-outside">
             <li className="mb-0">
-              Secured second place in the Student Startup and Innovation Policy (SSIP).
-            </li>
-            <li className="mb-0">
               100+ days streak on leetcode. With 314,372 rank
             </li>
           </ul>
