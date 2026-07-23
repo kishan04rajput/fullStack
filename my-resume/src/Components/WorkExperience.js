@@ -16,17 +16,10 @@ export const WorkExperience = () => {
           </div>
           <ul className="list-disc mt-2 text-justify">
             <li className="mb-0">
-              Spearheading full-stack development initiatives at Housie, Vadodara, utilizing React Native for
-              cross-platform mobile application development across Android and iOS platforms while
-              concurrently managing web frontend development, and implementing robust backend
-              solutions using Ruby on Rails to deliver scalable and efficient applications that meet diverse
-              client requirements and drive business growth.
+              Independently architected and built Housie Hub from scratch—the core internal operations application across iOS and Android using React Native and Ruby on Rails, taking complete end-to-end ownership of full-stack development and system architecture.
             </li>
             <li className="mb-0">
-              Leading end-to-end development of mobile applications with seamless user experience,
-              implementing responsive web interfaces, and architecting backend APIs and database
-              solutions, while collaborating with cross-functional teams to deliver high-quality products
-              and mentor junior developers in best practices and modern development methodologies.
+              Engineered vital operational workflows within Housie Hub, including real-time order processing, automated packer assignment, and rider management modules to streamline order fulfillment and boost overall business efficiency.
             </li>
           </ul>
         </div>
