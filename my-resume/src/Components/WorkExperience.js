@@ -14,12 +14,12 @@ export const WorkExperience = () => {
             <h3 className="text-xl font-semibold">Housie | Software Engineer</h3>
             <p className="text-sm">Feb '26 - Present</p>
           </div>
-          <ul className="list-disc mt-2 text-justify">
-            <li className="mb-0">
-              Independently architected and built Housie Hub from scratch, the core internal operations application across iOS and Android using React Native and Ruby on Rails, taking complete end-to-end ownership of full-stack development and system architecture.
+          <ul className="list-disc mt-2 pl-5 text-justify space-y-1">
+            <li>
+              Independently architected and built Housie Hub from scratch, a core internal operations application across iOS and Android using React Native, NativeWind, and Ruby on Rails, taking complete end-to-end ownership of system architecture.
             </li>
-            <li className="mb-0">
-              Engineered vital operational workflows within Housie Hub, including real-time order processing, automated packer assignment, and rider management modules to streamline order fulfillment and boost overall business efficiency.
+            <li>
+              Engineered vital operational workflows including real-time order processing, automated packer allocation, and rider tracking modules to streamline order fulfillment and boost overall business efficiency.
             </li>
           </ul>
         </div>
@@ -30,19 +30,15 @@ export const WorkExperience = () => {
             <h3 className="text-xl font-semibold">Cital | Software Engineer</h3>
             <p className="text-sm">Feb '25 - Feb '26</p>
           </div>
-          <ul className="list-disc mt-2 text-justify">
-            <li className="mb-0">
-              Spearheading full-stack development initiatives at Cital, Vadodara, utilizing React Native for
-              cross-platform mobile application development across Android and iOS platforms while
-              concurrently managing web frontend development, and implementing robust backend
-              solutions using Ruby on Rails to deliver scalable and efficient applications that meet diverse
-              client requirements and drive business growth.
+          <ul className="list-disc mt-2 pl-5 text-justify space-y-1">
+            <li>
+              Spearheaded full-stack development initiatives using React Native for cross-platform mobile apps (Android & iOS) and ReactJS for responsive web interfaces, backed by scalable Ruby on Rails RESTful APIs.
             </li>
-            <li className="mb-0">
-              Leading end-to-end development of mobile applications with seamless user experience,
-              implementing responsive web interfaces, and architecting backend APIs and database
-              solutions, while collaborating with cross-functional teams to deliver high-quality products
-              and mentor junior developers in best practices and modern development methodologies.
+            <li>
+              Architected robust backend API endpoints and database solutions while optimizing frontend component rendering and app load speed for enhanced user experience across devices.
+            </li>
+            <li>
+              Collaborated with cross-functional product teams to deliver high-quality client applications on schedule and mentored junior developers in modern development practices.
             </li>
           </ul>
         </div>
@@ -55,12 +51,12 @@ export const WorkExperience = () => {
             </h3>
             <p className="text-sm">Dec '23 - Feb '24</p>
           </div>
-          <ul className="list-disc mt-2 text-justify">
-            <li className="mb-0">
-              Collaborated with cross-functional teams to gather requirements and implement solutions
-              aligned with business objectives, employing HTML and CSS best practices to create well-structured, semantic, and accessible code while optimizing website performance and search
-              engine visibility, and iteratively improving design based on user feedback and analytics
-              insights.
+          <ul className="list-disc mt-2 pl-5 text-justify space-y-1">
+            <li>
+              Designed and developed well-structured, semantic, and responsive website layouts using HTML5, CSS3, and JavaScript best practices.
+            </li>
+            <li>
+              Optimized website load performance, search engine visibility (SEO), and cross-browser accessibility, iteratively refining design based on analytics insights.
             </li>
           </ul>
         </div>
