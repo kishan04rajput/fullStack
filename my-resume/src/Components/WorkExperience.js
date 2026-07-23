@@ -5,7 +5,7 @@ export const WorkExperience = () => {
     <div>
       <section className="mb-12">
         <h2 className="text-2xl font-bold border-b-2 border-black pb-1">
-          WORK EXPERIENCES
+          PROFESSIONAL EXPERIENCES
         </h2>
 
         {/* Housie | Software Engineer */}
