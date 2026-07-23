@@ -3,7 +3,7 @@ export const Header = () => {
     <div className="py-8">
       <header className="container mx-auto text-center">
         <h1 className="text-4xl font-bold mb-2">Kishan Rajput</h1>
-        <p className="text-lg mb-4">Software Engineer</p>
+        <p className="text-lg mb-4">Software Development Engineer 1</p>
         <p className="text-sm mb-4">
           kishan9rajput@gmail.com | +91 8347223811
           <span>
