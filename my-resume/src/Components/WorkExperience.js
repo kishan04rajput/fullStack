@@ -8,6 +8,29 @@ export const WorkExperience = () => {
           WORK EXPERIENCES
         </h2>
 
+        {/* Cital | Software Engineer */}
+        <div className="mt-4">
+          <div className="flex justify-between">
+            <h3 className="text-xl font-semibold">Cital | Software Engineer</h3>
+            <p className="text-sm">Feb '25 - Present</p>
+          </div>
+          <ul className="list-disc mt-2 text-justify">
+            <li className="mb-0">
+              Spearheading full-stack development initiatives at Cital, Vadodara, utilizing React Native for
+              cross-platform mobile application development across Android and iOS platforms while
+              concurrently managing web frontend development, and implementing robust backend
+              solutions using Ruby on Rails to deliver scalable and efficient applications that meet diverse
+              client requirements and drive business growth.
+            </li>
+            <li className="mb-0">
+              Leading end-to-end development of mobile applications with seamless user experience,
+              implementing responsive web interfaces, and architecting backend APIs and database
+              solutions, while collaborating with cross-functional teams to deliver high-quality products
+              and mentor junior developers in best practices and modern development methodologies.
+            </li>
+          </ul>
+        </div>
+
         {/* CodSoft | Java Developer */}
         <div className="mt-4">
           <div className="flex justify-between">
@@ -16,22 +39,10 @@ export const WorkExperience = () => {
           </div>
           <ul className="list-disc mt-2 text-justify">
             <li className="mb-0">
-              Orchestrated the development of a Number Game application,
-              leveraging Java to generate random numbers and engage users in
-              interactive guessing sessions, enhancing user engagement and
-              logical thinking skills.
-            </li>
-            <li className="mb-0">
-              Spearheaded the implementation of a Student Grade Calculator,
-              meticulously calculating total marks, average percentages, and
-              assigning grades based on user inputs, resulting in streamlined
-              academic assessment processes and improved data accuracy.
-            </li>
-            <li className="mb-0">
-              Innovated the ATM Interface, integrating robust functionalities
-              like withdrawing, depositing, and balance checking, enhancing user
-              convenience and security measures, contributing to a more
-              intuitive and efficient banking experience.
+              Developed multiple Java applications including a Number Game for interactive user
+              engagement, Student Grade Calculator for academic assessment with accurate data
+              processing, and ATM Interface with robust withdrawal, deposit, and balance checking
+              functionalities, enhancing user convenience and system efficiency.
             </li>
           </ul>
         </div>
@@ -46,25 +57,10 @@ export const WorkExperience = () => {
           </div>
           <ul className="list-disc mt-2 text-justify">
             <li className="mb-0">
-              Collaborating closely with cross-functional teams to gather
-              requirements, conceptualize designs, and implement solutions that
-              aligned with business objectives.
-            </li>
-            <li className="mb-0">
-              Employing best practices in HTML and CSS to create
-              well-structured, semantic, and accessible code, optimizing website
-              performance and search engine visibility.
-            </li>
-            <li className="mb-0">
-              Iteratively improving website design and functionality based on
-              user feedback, analytics insights, and industry trends to drive
-              continuous enhancement and innovation.
-            </li>
-            <li className="mb-0">
-              Executed front-end development techniques to enhance user
-              experience, integrating emerging technologies and design trends to
-              drive innovation and maintain competitive advantage within the
-              industry.
+              Collaborated with cross-functional teams to gather requirements and implement solutions
+              aligned with business objectives, employing HTML and CSS best practices to create well-structured, semantic, and accessible code while optimizing website performance and search
+              engine visibility, and iteratively improving design based on user feedback and analytics
+              insights.
             </li>
           </ul>
         </div>
@@ -74,3 +70,4 @@ export const WorkExperience = () => {
 };
 
 export default WorkExperience;
+

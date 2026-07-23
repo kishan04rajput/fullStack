@@ -12,14 +12,10 @@ export const Additionals = () => {
         <div className="mt-4">
           <ul className="list-disc list-inside list-outside">
             <li className="mb-0">
-              Secured second place in the Student Startup and Innovation Policy
-              (SSIP), showcasing entrepreneurial prowess and collaborative
-              excellence.
+              Secured second place in the Student Startup and Innovation Policy (SSIP).
             </li>
             <li className="mb-0">
-              Mastered in Data Structures and Algorithms challenges, honing
-              troubleshooting skills and cultivating a profound grasp of
-              algorithmic principles.
+              100+ days streak on leetcode. With 314,372 rank
             </li>
           </ul>
         </div>
@@ -29,3 +25,4 @@ export const Additionals = () => {
 };
 
 export default Additionals;
+

@@ -15,7 +15,7 @@ export const Education = () => {
             </div>
             <div className="text-right">
               <p>2018 - 2021</p>
-              <p>CGPA: 8.53</p>
+              <p className="font-bold">CGPA: 8.53</p>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ export const Education = () => {
             </div>
             <div className="text-right">
               <p>2015 - 2018</p>
-              <p>CGPA: 7.64</p>
+              <p className="font-bold">CGPA: 7.64</p>
             </div>
           </div>
         </div>
@@ -37,3 +37,4 @@ export const Education = () => {
     </div>
   );
 };
+

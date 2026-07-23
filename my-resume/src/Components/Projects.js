@@ -18,36 +18,21 @@ export const Projects = () => {
   // Projects
   const projects = [
     {
+      title: "Weather Viewer",
+      description: [
+        "Developed a comprehensive Weather Viewer application using React and Tailwind CSS that enables users to input latitude and longitude coordinates with customizable date ranges to retrieve historical temperature and apparent temperature data, featuring interactive data visualization through charts and detailed tabular displays while ensuring responsive design for seamless user experience across desktop and mobile devices, integrated with Open-Meteo Historical Weather API for accurate and reliable weather data retrieval.",
+      ],
+    },
+    {
       title: "Crypto Web App",
       description: [
-        "Spearheaded the conception and implementation of a web project, employing HTML, CSS, JavaScript, and React to craft an intuitive user interface that led to a 50% increase in user retention and a 20% rise in conversion rates.",
-        "Integrated functionality to fetch cryptocurrency data fluidly, ensuring real-time updates and accurate information for users.",
-        "Applied pagination to manage large datasets effectively, enabling users to navigate through cryptocurrency listings seamlessly.",
-        "Incorporated a search bar feature to facilitate quick and convenient access to specific cryptocurrency information, enhancing user accessibility and usability.",
+        "Developed a web application using React with real-time cryptocurrency data fetching, pagination, and search functionality.",
       ],
     },
     {
-      title: "Spotify Clone",
+      title: "My Weather App",
       description: [
-        "Created a Spotify clone from scratch using HTML, CSS, and JavaScript, ensuring faithful reproduction of the original platform’s design and functionality.",
-        "Implemented audio playback functionality to enable users to stream and listen to music seamlessly within the application.",
-        "Ensured compatibility across various devices and browsers, optimizing user experience and accessibility.",
-      ],
-    },
-    {
-      title: "Linkedingage",
-      description: [
-        "Crafted 11 webpages as part of the Linkedingage project, showcasing expertise in HTML, CSS, and JavaScript. Thoroughly designed each webpage to be responsive, ensuring seamless user experiences across desktops, tablets, and mobile devices.",
-        "Demonstrated adeptness in creating vibrant user interfaces, incorporating interactive elements and engaging visuals to enhance user engagement.",
-        "Employed best practices in web development to optimize performance and accessibility, resulting in a polished and professional project showcase.",
-      ],
-    },
-    {
-      title: "Tic Tac Toe",
-      description: [
-        "Developed a Tic Tac Toe game utilizing HTML, CSS, Bootstrap, and JavaScript, demonstrating adeptness in front-end technologies. Designed an engaging user interface to provide an immersive gaming experience for players.",
-        "Executed game logic and functionality using JavaScript to ensure seamless gameplay.",
-        "Utilized Bootstrap framework for responsive design, ensuring consistent performance on diverse devices and screen sizes.",
+        "Developed a weather web application using ReactJS with automatic location detection and city search functionality, displaying temperature, wind speed, humidity, and cloud coverage data through OpenWeatherMap API integration.",
       ],
     },
   ];
@@ -72,3 +57,4 @@ export const Projects = () => {
 };
 
 export default Projects;
+
