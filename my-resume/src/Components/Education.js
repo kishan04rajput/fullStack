@@ -1,3 +1,5 @@
+import React from "react";
+
 export const Education = () => {
   return (
     <div>
@@ -5,36 +7,33 @@ export const Education = () => {
         <h2 className="text-2xl font-bold border-b-2 border-black pb-1">
           EDUCATION
         </h2>
-        <div className="mt-4">
-          <div className="flex justify-between">
-            <div>
-              <h3 className="text-xl font-semibold">
-                B.E. In Electronics & Communication Engineering
-              </h3>
-              <p>SAL Institute of Technology & Engineering Research, Ahmedabad</p>
+        <ul className="list-disc mt-4 pl-5">
+          <li className="mb-2">
+            <div className="flex justify-between items-baseline">
+              <span>
+                B. E. from SAL Institute of Technology & Engineering Research, Ahmedabad 2018 - 2021
+              </span>
+              <span className="font-semibold text-right min-w-max ml-4">
+                CGPA: 8.53
+              </span>
             </div>
-            <div className="text-right">
-              <p>2018 - 2021</p>
-              <p className="font-bold">CGPA: 8.53</p>
+          </li>
+          <li className="mb-2">
+            <div className="flex justify-between items-baseline">
+              <span>
+                Diploma from Government Polytechnic, Ahmedabad 2015 - 2018
+              </span>
+              <span className="font-semibold text-right min-w-max ml-4">
+                CGPA: 7.64
+              </span>
             </div>
-          </div>
-        </div>
-        <div className="mt-4">
-          <div className="flex justify-between">
-            <div>
-              <h3 className="text-xl font-semibold">
-                Diploma In Electronics & Communication Engineering
-              </h3>
-              <p>Government Polytechnic, Ahmedabad</p>
-            </div>
-            <div className="text-right">
-              <p>2015 - 2018</p>
-              <p className="font-bold">CGPA: 7.64</p>
-            </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </div>
   );
 };
+
+export default Education;
+
 
