@@ -19,7 +19,7 @@ export const Header = () => {
             </a>{" "}
             |{" "}
             <a
-              href="https://github.com/kishan04rajput?tab=repositories"
+              href="https://github.com/kishan04rajput"
               className="text-blue-500 ml-1"
               target="_blank"
               rel="noopener noreferrer"
