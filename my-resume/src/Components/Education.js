@@ -11,7 +11,7 @@ export const Education = () => {
               <h3 className="text-xl font-semibold">
                 B.E. In Electronics & Communication Engineering
               </h3>
-              <p>SAL Institute of Technology & Engineering Research, Gujarat</p>
+              <p>SAL Institute of Technology & Engineering Research, Ahmedabad</p>
             </div>
             <div className="text-right">
               <p>2018 - 2021</p>
