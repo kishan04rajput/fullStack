@@ -38,7 +38,7 @@ export const WorkExperience = () => {
               Architected robust backend API endpoints and database solutions while optimizing frontend component rendering and app load speed for enhanced user experience across devices.
             </li>
             <li>
-              Collaborated with cross-functional product teams to deliver high-quality client applications on schedule and mentored junior developers in modern development practices.
+              Collaborated with cross-functional product teams to deliver high-quality applications on schedule and mentored junior developers in modern development practices.
             </li>
           </ul>
         </div>
