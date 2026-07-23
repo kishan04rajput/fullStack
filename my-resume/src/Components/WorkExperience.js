@@ -8,11 +8,34 @@ export const WorkExperience = () => {
           WORK EXPERIENCES
         </h2>
 
+        {/* Housie | Software Engineer */}
+        <div className="mt-4">
+          <div className="flex justify-between">
+            <h3 className="text-xl font-semibold">Housie | Software Engineer</h3>
+            <p className="text-sm">Feb '26 - Present</p>
+          </div>
+          <ul className="list-disc mt-2 text-justify">
+            <li className="mb-0">
+              Spearheading full-stack development initiatives at Housie, Vadodara, utilizing React Native for
+              cross-platform mobile application development across Android and iOS platforms while
+              concurrently managing web frontend development, and implementing robust backend
+              solutions using Ruby on Rails to deliver scalable and efficient applications that meet diverse
+              client requirements and drive business growth.
+            </li>
+            <li className="mb-0">
+              Leading end-to-end development of mobile applications with seamless user experience,
+              implementing responsive web interfaces, and architecting backend APIs and database
+              solutions, while collaborating with cross-functional teams to deliver high-quality products
+              and mentor junior developers in best practices and modern development methodologies.
+            </li>
+          </ul>
+        </div>
+
         {/* Cital | Software Engineer */}
         <div className="mt-4">
           <div className="flex justify-between">
             <h3 className="text-xl font-semibold">Cital | Software Engineer</h3>
-            <p className="text-sm">Feb '25 - Present</p>
+            <p className="text-sm">Feb '25 - Feb '26</p>
           </div>
           <ul className="list-disc mt-2 text-justify">
             <li className="mb-0">
