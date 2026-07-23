@@ -31,22 +31,6 @@ export const WorkExperience = () => {
           </ul>
         </div>
 
-        {/* CodSoft | Java Developer */}
-        <div className="mt-4">
-          <div className="flex justify-between">
-            <h3 className="text-xl font-semibold">CodSoft | Java Developer</h3>
-            <p className="text-sm">May '24 - Jun '24</p>
-          </div>
-          <ul className="list-disc mt-2 text-justify">
-            <li className="mb-0">
-              Developed multiple Java applications including a Number Game for interactive user
-              engagement, Student Grade Calculator for academic assessment with accurate data
-              processing, and ATM Interface with robust withdrawal, deposit, and balance checking
-              functionalities, enhancing user convenience and system efficiency.
-            </li>
-          </ul>
-        </div>
-
         {/* Linkedingage | Web Designer */}
         <div className="mt-4">
           <div className="flex justify-between">
