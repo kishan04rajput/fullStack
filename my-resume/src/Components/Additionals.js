@@ -12,7 +12,7 @@ export const Additionals = () => {
         <div className="mt-4">
           <ul className="list-disc list-inside list-outside">
             <li className="mb-0">
-              100+ days streak on leetcode. With 314,372 rank
+              100+ days streak on leetcode.
             </li>
           </ul>
         </div>
