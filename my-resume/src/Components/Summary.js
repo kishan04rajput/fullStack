@@ -8,7 +8,7 @@ export const Summary = () => {
           SUMMARY
         </h2>
         <p className="mt-4 text-justify leading-relaxed">
-          Software engineer with 1.5+ years of experience building responsive web and mobile applications using React, React Native, and Ruby on Rails. Experienced in developing REST APIs, internal operational tools, and cross-platform user interfaces, with hands-on ownership from features development to deployment across web, iOS, and Android.
+          Full-stack software engineer with 1.5+ years of experience building cross-platform mobile and web applications using React Native, ReactJS, and Ruby on Rails. Skilled in developing REST APIs, internal operational tools, and reusable UI components, with ownership across feature development, deployment, and production support for iOS, Android, and web.
         </p>
       </section>
     </div>

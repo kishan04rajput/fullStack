@@ -14,6 +14,9 @@ export const Additionals = () => {
             <li className="mb-0">
               100+ days streak on leetcode.
             </li>
+            <li className="mb-0">
+              Attended Gujarat Industrial Hackathon in 2018, 2019, 2020, and 2021 (finale).
+            </li>
           </ul>
         </div>
       </section>
@@ -22,4 +25,3 @@ export const Additionals = () => {
 };
 
 export default Additionals;
-
