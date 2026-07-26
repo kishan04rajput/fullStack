@@ -10,7 +10,7 @@ export const Additionals = () => {
 
         {/* Additional Information */}
         <div className="mt-4">
-          <ul className="list-disc list-inside list-outside">
+          <ul className="list-disc mt-2 pl-5 space-y-1">
             <li className="mb-0">
               100+ days streak on leetcode.
             </li>

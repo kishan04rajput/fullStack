@@ -5,7 +5,7 @@ const ProjectCard = ({ title, description }) => {
   return (
     <div className="mt-4">
       <h3 className="text-xl font-semibold">{title}</h3>
-      <ul className="list-disc text-justify">
+      <ul className="list-disc mt-2 pl-5 text-justify space-y-1">
         {description.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
