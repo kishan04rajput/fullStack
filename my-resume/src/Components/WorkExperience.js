@@ -32,13 +32,13 @@ export const WorkExperience = () => {
           </div>
           <ul className="list-disc mt-2 pl-5 text-justify space-y-1">
             <li>
-              Spearheaded full-stack development initiatives using React Native for cross-platform mobile apps (Android & iOS) and ReactJS for responsive web interfaces, backed by scalable Ruby on Rails RESTful APIs.
+              Migrated the legacy web app to a native mobile app using React Native, and implemented map functionality, push notifications, OTP autofill, and Truecaller login.
             </li>
             <li>
-              Architected robust backend API endpoints and database solutions while optimizing frontend component rendering and app load speed for enhanced user experience across devices.
+              Optimised SiteMan, a photo sharing and attendance tracking app, and reduced attendance marking time by 66.7% through performance optimization.
             </li>
             <li>
-              Collaborated with cross-functional product teams to deliver high-quality applications on schedule and mentored junior developers in modern development practices.
+              Built robust backend API endpoints and database solutions while optimizing frontend component rendering and app load speed for enhanced user experience across devices.
             </li>
           </ul>
         </div>
@@ -66,4 +66,3 @@ export const WorkExperience = () => {
 };
 
 export default WorkExperience;
-

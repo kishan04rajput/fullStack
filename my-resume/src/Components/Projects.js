@@ -18,9 +18,16 @@ export const Projects = () => {
   // Projects
   const projects = [
     {
-      title: "Weather Viewer",
+      title: "Cross Platform Map",
       description: [
-        "Developed a comprehensive Weather Viewer application using React and Tailwind CSS that enables users to input latitude and longitude coordinates with customizable date ranges to retrieve historical temperature and apparent temperature data, featuring interactive data visualization through charts and detailed tabular displays while ensuring responsive design for seamless user experience across desktop and mobile devices, integrated with Open-Meteo Historical Weather API for accurate and reliable weather data retrieval.",
+        "Built a reusable Expo-based cross-platform map module for Android, iOS, and web, which was adopted across multiple internal products including Cital, Siteman, and Housie.",
+        "Developed a single shared demo project that was reused across platforms and product teams to ensure consistency and reduce duplicate implementation effort.",
+      ],
+    },
+    {
+      title: "OTP Auto-Fill",
+      description: [
+        "Developed an Android-only OTP auto-fill solution and reused it across Cital, Siteman, and Housie to standardize OTP handling and reduce duplicate implementation effort.",
       ],
     },
     {
@@ -57,4 +64,3 @@ export const Projects = () => {
 };
 
 export default Projects;
-
