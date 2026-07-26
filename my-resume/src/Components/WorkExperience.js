@@ -33,7 +33,7 @@ export const WorkExperience = () => {
               Migrated the legacy web app to a native mobile app using React Native, and implemented map functionality, push notifications, OTP autofill, and Truecaller login.
             </li>
             <li>
-              Optimised SiteMan, a photo sharing and attendance tracking app, and reduced attendance marking time by 66.7% through performance optimization.
+              Optimised SiteMan, a photo sharing and attendance tracking app, and reduced attendance marking time by nearly 70%.
             </li>
             <li>
               Built robust backend API endpoints and database solutions while optimizing frontend component rendering and app load speed for enhanced user experience across devices.

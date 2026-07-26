@@ -22,7 +22,7 @@ export const Projects = () => {
       ],
     },
     {
-      title: "OTP Auto-Fill",
+      title: "Resuable OTP Auto-Fill Module",
       description: [
         "Developed an Android-only OTP auto-fill solution and reused it across Cital, Siteman, and Housie to standardize OTP handling and reduce duplicate implementation effort.",
       ],

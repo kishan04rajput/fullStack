@@ -10,7 +10,7 @@ export const Additionals = () => {
         <div className="mt-4">
           <ul className="list-disc mt-2 pl-5 space-y-1">
             <li className="mb-0">
-              100+ days streak on leetcode.
+              Solved 300+ DSA problems on Leetcode.
             </li>
             <li className="mb-0">
               Participated in Gujarat Industrial Hackathon in 2018, 2019, 2020, and 2021 (finale).
