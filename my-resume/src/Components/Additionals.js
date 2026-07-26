@@ -1,9 +1,7 @@
-import React from "react";
-
 export const Additionals = () => {
   return (
     <div>
-      <section className="mb-12">
+      <section className="mb-1">
         <h2 className="text-2xl font-bold border-b-2 border-black pb-1">
           ADDITIONAL
         </h2>
@@ -15,7 +13,7 @@ export const Additionals = () => {
               100+ days streak on leetcode.
             </li>
             <li className="mb-0">
-              Attended Gujarat Industrial Hackathon in 2018, 2019, 2020, and 2021 (finale).
+              Participated in Gujarat Industrial Hackathon in 2018, 2019, 2020, and 2021 (finale).
             </li>
           </ul>
         </div>

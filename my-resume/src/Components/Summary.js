@@ -1,9 +1,7 @@
-import React from "react";
-
 export const Summary = () => {
   return (
     <div>
-      <section className="mb-12">
+      <section className="mb-6">
         <h2 className="text-2xl font-bold border-b-2 border-black pb-1">
           SUMMARY
         </h2>
