@@ -31,7 +31,3 @@ export const Education = () => {
     </div>
   );
 };
-
-export default Education;
-
-

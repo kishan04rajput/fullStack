@@ -21,5 +21,3 @@ export const Additionals = () => {
     </div>
   );
 };
-
-export default Additionals;
